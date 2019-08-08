@@ -63,7 +63,7 @@ In this step, you will connect to the source repository created in the previous 
 
 ```console
 user:~/environment $ git config --global credential.helper '!aws codecommit credential-helper $@'
-git config --global credential.UseHttpPath true
+user:~/environment $ git config --global credential.UseHttpPath true
 user:~/environment $ git clone https://git-codecommit.<YOUR-REGION>.amazonaws.com/v1/repos/WebAppRepo
 
 ```
