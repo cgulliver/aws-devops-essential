@@ -68,7 +68,7 @@ user:~/environment $ git clone https://git-codecommit.<YOUR-REGION>.amazonaws.co
 
 ```
 
-Provide your Git HTTPs credential when prompted. You would be seeing the following message if cloning is successful. ***warning: You appear to have cloned an empty repository.***
+If necessary, provide your Git HTTPs credential when prompted. You would be seeing the following message if cloning is successful. ***warning: You appear to have cloned an empty repository.***
 
 ***
 
@@ -115,7 +115,7 @@ user:~/environment/WebAppRepo/ $ git config credential.helper store
 user:~/environment/WebAppRepo/ $ git push -u origin master
 ```
 
-Provide your Git HTTPs credential when prompted. Credential helper will store it, hence you won't be asked again for subsequent push.
+If necessary, provide your Git HTTPs credential when prompted. Credential helper will store it, hence you won't be asked again for subsequent push.
 
 **_💡 Tip_** After you have pushed files to your AWS CodeCommit repository, you can use the [AWS CodeCommit console](https://console.aws.amazon.com/codecommit/home) to view the contents.
 
